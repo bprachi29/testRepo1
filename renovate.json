@@ -1,3 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "hostRules": [
+    {
+      "hostType": "npm",
+      "abortOnError": false,
+      "matchHost": "https://registry.npmjs.org/"
+    }
+  ]
 }
