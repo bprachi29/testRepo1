@@ -1,5 +1,8 @@
-When any error occur for npm libraries, renovate bot abruptly stops and no PR is raised for other dependencies as well. To avoid this, we tried using "abortOnError: false" for "npm" hostType, but this seems to be not working. Still the renovate bot is stopping with the error message  - "External host error causing abort - skipping"
+When any error occur for npm libraries, renovate bot abruptly stops and no PR is raised for other dependencies as well. 
+To avoid this, we tried using "abortOnError: false" for "npm" hostType, but this seems to be not working. 
+Still the renovate bot is stopping with the error message  - "External host error causing abort - skipping"
 
+```
 Relevant Logs:
 
 17:45:45   WARN: Host error (repository=bprachi29/testRepo1)
@@ -33,3 +36,5 @@ Relevant Logs:
 17:45:45           }
 17:45:45         }
 17:45:45   INFO: External host error causing abort - skipping (repository=bprachi29/testRepo1)
+
+```
